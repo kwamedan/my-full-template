@@ -91,6 +91,9 @@ After reviewing and completing the wireframes, it has given me a better understa
 ## Testing
 ### Bugs
 
+Content has been pushed to the left-side of the page so certain characters are missing on the page:
+
+To solve this, I have decided to use the class: 'container-fluid' from bootstrap to push all content into the main frame
 ## Deployment
 
 ## Credits
