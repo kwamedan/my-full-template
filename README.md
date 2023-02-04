@@ -1,108 +1,103 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+/**`python3 -m http.server`/**
+# Kwame Project Milestone - Online Gym Website
+## UX
+### Project Goals 
 
-Welcome USER_NAME,
+The primary goal of this website is to attract as well as retain clients to attend gyms. The target is to raise revenue for the gym and increase the popularity of the gym. Target group is any demographic age ranging 16 to 65. 
+### Client Goals
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+* The target group is for individuals between 16 and 65 years old as children are too young to workout and older people may not have the capabilities to attend the gym or be a frequent customer throughout the gym. 
+* I plan to make the webpage as visually pleasing as possible as there are many other competitors that I will have to try and beat to gain the support of a client. 
+* I aim to make it an easy sign up for users to create a membership account so they do not spend too much navigating the website and lose concentration, delaying the time they take to sign up or stop them signing up in all.
+* I plan to make the menu page the initial page the user sees where they can easily navigate to different sections of the website.It'll contain clear information on how to access the gym. I would like to display an account link where the user can:
+⋅⋅⋅ access their account details
+⋅⋅* a link to access a personal trainer
+⋅⋅* a link to the 'bar and cafe'
+⋅⋅* display opening/closing times and location
+⋅⋅* contact information
+⋅⋅* refer a friend reward
+⋅⋅* social media links at the footer of the page  
+⋅⋅* an 'About' page that will tell the user about our gym facilities, history and famous clients.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Developer and Business Goals
+I hope to make the design as attractive as possible so the user can have a positive 1st impression. I will also design and structure the website logically to keep the user on the webpage.
+The website will have a set colour scheme that will flow throughout each webpage and this will satisfy each user and appear more attractive. 
+I will include 3 different pages that the user can click which will open in a separate tab:
+* The application to create an account which will be strucured as a form
+* The application to get a personal trainer which will also be structured as a form
+* The various social media links at the footer of each page
+The use of separate tabs will make it simple for the user to fill out the form whilst still having the flexibility to navigate throughout the website if need be. 
 
-## Gitpod Reminders
+I will make my program robust by having 'required' entry forms and create clear buttons with 'alt' messages so they can see exactly what will happen once they click the button. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I will display positive images of people smiling and interacting throughout the website to give the idea that going to the gym is not only fun but also a sociable environment with many people who are willing to help. 
 
-`python3 -m http.server`
+I will include a mini, interactive clip where the user can see the gym in video form and gain a better understanding of what it will entail. 
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+As an adult or young adult in the current day and age I want to:
+* Easily see the location of the gym as well as opening/closing times
+* Easily navigate and access a variety of features with buttons and links
+* Have a menu page that I can easily navigate and understand
+* Use buttons and links to get preview images, videos and reviews into what the gym looks like
+* Read about reviews of the gym
+* Have a link to access a personal trainer
+* To understand and relate to icons  
+* Fill out a sign-up form for an account/personal trainer
+* Access social media links 
+* See an interactive video of the gym that I can pause/play at anytime 
+* Leave me with a positive experience 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Design Choices
+My aim is to make the website positive, efficient and easy to use so there is not much time wasted trying to navigate the website or by reading excess information. Following on from this, I desire to include this set of features:
 
-A blue button should appear to click: _Make Public_,
+#### Font
+The primary font will be 'Open Sans' as it has been the most popular font used by the largest gyms across the UK, so it will create familiarity to ex gym users but also be simple to read for new users.
 
-Another blue button should appear to click: _Open Browser_.
+The secondary font will be 'sans-serif' as it compliments 'Open Sans' well whilst also being an easy read for any user.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Icons
+All icons displayed will be relatable to its section of text/image and easily recognisable by all humans.
 
-To log into the Heroku toolbelt CLI:
+#### Colours
+The primary colours display throughout the website will be green and white as it presents an optimistic feel but green will also give users a sense of nature which will help them feel relaxed and place them in a peaceful mood. White also contrasts well with green but not too much that it gives a negative connotation. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Any other colours used will be selected experimentally using 'rgba' to inclue opacity where needed
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Backgrounds and Images
+I will display different backgrounds for each page, relating the page which the user is on.
 
-------
+* The main menu page will have a 'gym' setting background which introduces the user
+* The personal trainer page will have a 'personal trainer and client at the gym'
+* The application page will have a positive background of someone smiling so they can picture themselves with that same emotion once they sign up.
 
-## Release History
+#### Video file
+This file will show the user a preview of the gym and features to enjoy once a member. It will also be interactive and allow the user to pause/play the video.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Wireframes
+After reviewing and completing the wireframes, it has given me a better understanding of how my website would appear and appeal to the user. For this reason, I've decided to change sections and parts of the layout within my webstie:
+* Firstly, I have decided to use a fixed header and footer throughout each page so there is a consistent flow throughout the website
+* I have also decided to not include the 'personal assistant' section as a separate page as there isn't enough detail or relevance of this to give it its own page
+* I have decided to not include a video clip or a 'refer a friend' section as it gives the user too much information to deal with and this can be included later on in another cycle once the user has signed up. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features
+* 
+* 
+* 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Technologies Used
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Testing
+### Bugs
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Deployment
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Credits
+### Content
+### Media
+### Code
+Template code for the fixed navbar at the top of each homepage was provided by https://getbootstrap.com/docs/4.1/components/navbar/
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Acknowledgements
