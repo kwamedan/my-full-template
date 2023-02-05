@@ -1,33 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap|sans-serif:wght@300;400;500;600;700;800');
 
-/*h1{
-    
-}
-*/
+/*---------------------------------------------------------Header*/
+
 .navbar li {
     list-style-type: none;
+    text-decoration: none;
 }
-
-/*nav {
-    display: inline-block;
-  } */
-
 
 .contact {
   float: right;
 }
 
+/*---------------------------------------------------------Welcome*/
 
-.menu {
-  display: absolute;    
-}
 
+/*---------------------------------------------------------Review*/
 .review {
   float: right;
 }
 
-.contact{
-  display: block;
+/*-------------------------------------Icons*/
+.fa-phone{
+  padding-right: 10px;
+  font-size: 150%;
 }
 
-/*-------------------------------------Icons*/
+.fas{
+  padding-left: 10px;
+}
+
+/*-------------------------------------------Footer*/
+
+.social li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+}

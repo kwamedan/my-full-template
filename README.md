@@ -88,8 +88,12 @@ After reviewing and completing the wireframes, it has given me a better understa
 * 
 
 ## Technologies Used
-Bootstrap font icon used for placing icons into my website: 
-[BootStrap Icon](https://icons.getbootstrap.com/)
+Bootstrap CDN to format my website:
+[Bootstrap CDN](https://getbootstrap.com/)
+
+Fontawesome icon used for placing icons into my website: 
+[Fontawesome Icons](https://fontawesome.com/v5/search?o=r&m=free)
+
 ## Testing
 ### Bugs
 
@@ -105,6 +109,12 @@ I have included some CSS styling to solve this. First I created a class for the 
 
 Similar to the contact number, I have set the float to right and created a class for the review section to float all its content
 
+* The icons have been displayed too close to their parent text:
+
+To combat this, I have decided to add padding to each icon relative to its position:
+
+
+
 ## Deployment
 
 ## Credits
@@ -115,6 +125,3 @@ Template code for the fixed navbar at the top of each homepage was provided by h
 
 
 ### Acknowledgements
-
-
-[def]: 2023-02-04.png "Logo Title Text 1"
