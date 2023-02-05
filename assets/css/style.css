@@ -4,11 +4,30 @@
     
 }
 */
-.navbar li{
+.navbar li {
     list-style-type: none;
 }
 
-/*.menu {
-    
-} 
-*/
+/*nav {
+    display: inline-block;
+  } */
+
+
+.contact {
+  float: right;
+}
+
+
+.menu {
+  display: absolute;    
+}
+
+.review {
+  float: right;
+}
+
+.contact{
+  display: block;
+}
+
+/*-------------------------------------Icons*/

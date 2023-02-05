@@ -76,6 +76,7 @@ I will display different backgrounds for each page, relating the page which the 
 This file will show the user a preview of the gym and features to enjoy once a member. It will also be interactive and allow the user to pause/play the video.
 
 ### Wireframes
+
 After reviewing and completing the wireframes, it has given me a better understanding of how my website would appear and appeal to the user. For this reason, I've decided to change sections and parts of the layout within my webstie:
 * Firstly, I have decided to use a fixed header and footer throughout each page so there is a consistent flow throughout the website
 * I have also decided to not include the 'personal assistant' section as a separate page as there isn't enough detail or relevance of this to give it its own page
@@ -87,13 +88,23 @@ After reviewing and completing the wireframes, it has given me a better understa
 * 
 
 ## Technologies Used
-
+Bootstrap font icon used for placing icons into my website: 
+[BootStrap Icon](https://icons.getbootstrap.com/)
 ## Testing
 ### Bugs
 
-Content has been pushed to the left-side of the page so certain characters are missing on the page:
+* Content has been pushed to the left-side of the page so certain characters are missing on the page:
 
-To solve this, I have decided to use the class: 'container-fluid' from bootstrap to push all content into the main frame
+To solve this, I have decided to use the class: 'container-fluid' from bootstrap to push all content into the main frame:
+
+* The contact number has been displayed below the navbar and to the left of the page:
+
+I have included some CSS styling to solve this. First I created a class for the 'span' and within style.css I floated the content to the right and created the code for it before the 'h1' header so it appeared right at the top:
+
+* The reviews has been displayed below the main content and to the left of the page:
+
+Similar to the contact number, I have set the float to right and created a class for the review section to float all its content
+
 ## Deployment
 
 ## Credits
@@ -104,3 +115,6 @@ Template code for the fixed navbar at the top of each homepage was provided by h
 
 
 ### Acknowledgements
+
+
+[def]: 2023-02-04.png "Logo Title Text 1"
