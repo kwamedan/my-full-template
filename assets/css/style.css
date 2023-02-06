@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap|sans-serif:wght@300;400;500;600;700;800');
 
-
 /*---------------------------------------------------------Header*/
 
 header{
@@ -37,25 +36,41 @@ a {
   float: right;
   padding-top: 10px;
 }
+
 /*---------------------------------------------------------Main*/
-.main{
+/*.main{
   background-image: url(../images/welcome1.jpg);
   background-repeat: no-repeat;
+  background-position: fill;
+  padding-left: 10px;
 }
+
 /*---------------------------------------------------------Welcome*/
 section{
-  background-color:rgba(15, 260, 200, 0.4)
+  background-color: rgba(15, 260, 200, 0.4);
 }
 
 .welcome{
   padding-top: 10px;
-  text-transform: uppercase;
   position: relative;
 }
 
+.welcome h2{
+  text-transform: uppercase;
+}
+
+/*---------------------------------------------------------Why*/
+.why h2{
+  text-transform: uppercase;
+}
+
 /*---------------------------------------------------------Review*/
-.review {
-  float: right;
+.review{
+  position: relative;
+}
+
+.review h2{
+  text-transform: uppercase;
 }
 
 /*-------------------------------------Icons*/
@@ -69,9 +84,14 @@ section{
 }
 
 /*-------------------------------------------Footer*/
+footer {
+  background-color: rgb(15, 260, 200);
+  
+}
 
 .social li {
   list-style-type: none;
   text-decoration: none;
   display: inline;
+
 }
