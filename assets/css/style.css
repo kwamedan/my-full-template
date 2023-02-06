@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap|sans-serif:wght@300;400;500;600;700;800');
 
+body{
+  min-height: 100%;
+}
 /*---------------------------------------------------------Header*/
 
 header{
@@ -39,7 +42,7 @@ a {
 }
 
 /*---------------------------------------------------------Main*/
-/*.main{
+/*.main-home{
   background-image: url(../images/welcome1.jpg);
   background-repeat: no-repeat;
   background-position: fill;
@@ -84,21 +87,41 @@ section{
   padding-left: 10px;
 }
 
-/*-------------------------------------------Form*/
+/*-------------------------------------------Account*/
 .signup{
+  position: relative;
   padding: 25px;
+  float: left;
 }
 
-form.label{
-  font-size: large;
+.main-account{
+  padding-top: 150px;
+  background-image: url(../images/gym.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 500px;
 }
+.reasons{
+  position: relative;
+  padding: 25px;
+  float: right; 
+  margin-right: 20px;
+}
+
 
 /*-------------------------------------------Footer*/
 footer {
   background-color: rgb(15, 260, 200);
-  margin-bottom: 0;
+  position: bottom;
+  z-index: 10;
+  bottom: 0;
+  letter-spacing: 2px;
 }
 
+.social{
+  text-align: center;
+  padding-top: 30px;
+}
 .social li {
   list-style-type: none;
   text-decoration: none;
@@ -106,3 +129,11 @@ footer {
 
 }
 
+/*-------------------------------------------Fixed*/
+.fixed-top{
+  height: 100px;
+}
+
+.fixed-bottom{
+  height: 100px;
+}

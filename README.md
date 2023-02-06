@@ -114,7 +114,7 @@ Similar to the contact number, I have set the float to right and created a class
 I have since decided to add padding to the relevant side required of each icon to give it more breathing space:
 
 * When creating a fixed header, the content from below the header interferes with it:
-
+I have decided to create a grid
 To combat this, I have decided to add padding to each icon relative to its position and set the z-index of the header to a lower value than the content below it. I also received additional suppor to solve this from [Help](https://stackoverflow.com/questions/46555609/displaying-content-below-a-fixed-header):
 
 
@@ -124,8 +124,8 @@ To combat this, I have decided to add padding to each icon relative to its posit
 ## Credits
 ### Content
 ### Media
+Hero Image used in the accounts page: [Account Image](https://www.pexels.com/photo/various-fitness-machines-in-modern-spacious-gym-7031706/)
 ### Code
-Template code for the fixed navbar at the top of each homepage was provided by https://getbootstrap.com/docs/4.1/components/navbar/
-
+Template code for the fixed navbar at the top of each homepage was provided by: [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/)
 
 ### Acknowledgements

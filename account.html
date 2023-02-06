@@ -11,7 +11,7 @@
 
 
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid fixed-top">
         <div class="col-3 contact">
             <span><i class="fas fa-phone"></i>For support contact: 555 123 456 789</span>
         </div>         
@@ -38,14 +38,11 @@
         </div>
     </header>
 
-    <section>
+    <section class="main-account container-fluid">
         <h2>
             Want to become our Latest Member? Sign Up Here!
         </h2>
 
-        <section>
-
-        </section>
         <fieldset class="signup">
             <form method="POST" action="#">
                 <h3><strong><u>Create an Account</u></strong></h3>
@@ -64,7 +61,7 @@
         </fieldset>
 
         <fieldset class="reasons">
-            <form>
+            <form method="POST" action="#">
                 <h2><strong><u>Reasons for Joining?</u></strong></h2>
                 <label for="fit">Want to get fit: </label>
                 <input id="fit" type="radio" name="reason"><br>
@@ -81,12 +78,12 @@
 
     </section>
 
-    <footer class="container-fluid">
+    <footer class="container-fluid fixed-bottom">
         <div class="row">
             <div class="col-4">
                 <h2>Opening Times:<i class="fas fa-clock"></i></h2>
-                <blockquote>Mon-Fri: 06:00-00:00</blockquote>
-                <blockquote>Sat-Sun: 08:00-22:00</blockquote>
+                <p>Mon-Fri: 06:00-00:00</p>
+                <p>Sat-Sun: 08:00-22:00</p>
             </div>
 
             <div class="col-4">
