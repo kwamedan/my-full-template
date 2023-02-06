@@ -4,6 +4,7 @@
 
 header{
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 h1{
@@ -83,10 +84,15 @@ section{
   padding-left: 10px;
 }
 
+/*-------------------------------------------Form*/
+form.label{
+  font-size: large;
+}
+
 /*-------------------------------------------Footer*/
 footer {
   background-color: rgb(15, 260, 200);
-  
+  margin-bottom: 0;
 }
 
 .social li {
@@ -95,3 +101,4 @@ footer {
   display: inline;
 
 }
+
