@@ -92,14 +92,19 @@ section{
   position: relative;
   padding: 25px;
   float: left;
+  margin-right: -200px;
 }
 
 .main-account{
   padding-top: 150px;
+}
+
+#account-image{
   background-image: url(../images/gym.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 500px;
+  padding-left: 50px;
 }
 .reasons{
   position: relative;
