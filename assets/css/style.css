@@ -85,6 +85,10 @@ section{
 }
 
 /*-------------------------------------------Form*/
+.signup{
+  padding: 25px;
+}
+
 form.label{
   font-size: large;
 }

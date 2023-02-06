@@ -46,18 +46,37 @@
         <section>
 
         </section>
-        <fieldset>
-        <form method="POST" action="#">
-            <label for="fname">First Name: </label>
-            <input id="fname" type="text" required><br>
-            <label for="lname">Last Name: </label>
-            <input id="lname" type="text" required><br>
-            <label for="email">Email Address: </label>
-            <input id="email" type="email" required><br>
-            <label for="password">Password: </label>
-            <input id="password" type="password" required><br>
-            <button type="submit">Sign Up!</button>
-        </form>
+        <fieldset class="signup">
+            <form method="POST" action="#">
+                <h3><strong><u>Create an Account</u></strong></h3>
+                <label for="fname">First Name: </label>
+                <input id="fname" type="text" required><br>
+                <label for="lname">Last Name: </label>
+                <input id="lname" type="text" required><br>
+                <label for="email">Email Address: </label>
+                <input id="email" type="email" required><br>
+                <label for="password">Password: </label>
+                <input id="password" type="password" required><br>
+                <label for="date">Date of Birth: </label>
+                <input id="date" type="date" required><br>
+                <button type="submit">Sign Up!</button>
+            </form>
+        </fieldset>
+
+        <fieldset class="reasons">
+            <form>
+                <h2><strong><u>Reasons for Joining?</u></strong></h2>
+                <label for="fit">Want to get fit: </label>
+                <input id="fit" type="radio" name="reason"><br>
+                <label for="health">Want to improve health: </label>
+                <input id="health" type="radio" name="reason"><br>
+                <label for="muscle">Want to gain muscle: </label>
+                <input id="muscle" type="radio" name="reason"><br>
+                <label for="mental">Want to improve mental health: </label>
+                <input id="mental" type="radio" name="reason"><br>
+                <label for="weight">Want to lose weight: </label>
+                <input id="weight" type="radio" name="reason"><br>
+            </form>
         </fieldset>
 
     </section>
