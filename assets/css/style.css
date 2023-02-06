@@ -125,6 +125,21 @@ section{
 .reasons label{
   width: 33%;
 }
+/*-------------------------------------------Cafe and Bar*/
+.food{
+  display: inline-table;
+  float: left;
+  width: 33%;
+  padding-right: 25px;
+}
+
+.drinks{
+  display: inline-table;
+  float: right;
+  width: 33%;
+  padding-left: 25px;
+}
+
 
 /*-------------------------------------------Footer*/
 footer {
