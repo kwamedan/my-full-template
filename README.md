@@ -107,11 +107,15 @@ I have included some CSS styling to solve this. First I created a class for the 
 
 * The reviews has been displayed below the main content and to the left of the page:
 
-Similar to the contact number, I have set the float to right and created a class for the review section to float all its content
+Similar to the contact number, I have set the float to right and created a class for the review section to float all its content:
 
 * The icons have been displayed too close to their parent text:
 
-To combat this, I have decided to add padding to each icon relative to its position:
+I have since decided to add padding to the relevant side required of each icon to give it more breathing space:
+
+* When creating a fixed header, the content from below the header interferes with it:
+
+To combat this, I have decided to add padding to each icon relative to its position and set the z-index of the header to a lower value than the content below it. I also received additional suppor to solve this from [Help](https://stackoverflow.com/questions/46555609/displaying-content-below-a-fixed-header):
 
 
 
