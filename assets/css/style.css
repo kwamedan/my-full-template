@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap|sans-serif:wght@300;400;500;600;700;800');
 
-body{
-  min-height: 100%;
-}
 /*---------------------------------------------------------Header*/
 
 header{
   text-transform: uppercase;
   margin-top: 0;
+  height: 100px;
+  position: fixed;
 }
 
 h1{
@@ -90,29 +89,42 @@ section{
 /*-------------------------------------------Account*/
 .signup{
   position: relative;
-  padding: 25px;
-  float: left;
-  margin-right: -200px;
+  height: 75px;
+  width: 33%;
+  display: inline-block;
 }
 
 .main-account{
   padding-top: 150px;
 }
 
-#account-image{
+.signup label {
+  padding-right: 100px;
+}
+
+.account-image{
+  position: relative;
   background-image: url(../images/gym.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 500px;
-  padding-left: 50px;
-}
-.reasons{
-  position: relative;
-  padding: 25px;
-  float: right; 
-  margin-right: 20px;
+  background-size: 600px;
+  height: 400px; 
+  width: 33%;
+  display: inline-block;
+  opacity: 0.9;
 }
 
+.reasons{
+  position: relative;
+  height: 75px;
+  width: 33%;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.reasons label{
+  width: 33%;
+}
 
 /*-------------------------------------------Footer*/
 footer {

@@ -117,6 +117,10 @@ I have since decided to add padding to the relevant side required of each icon t
 I have decided to create a grid
 To combat this, I have decided to add padding to each icon relative to its position and set the z-index of the header to a lower value than the content below it. I also received additional suppor to solve this from [Help](https://stackoverflow.com/questions/46555609/displaying-content-below-a-fixed-header):
 
+* When inputting the image for the account page, it was difficult to center it between both forms:
+
+To solve this, I decided to give the image its own ID as well as size and position:
+
 
 
 ## Deployment
