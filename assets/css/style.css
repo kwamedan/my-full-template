@@ -148,19 +148,32 @@ a {
   background-color: rgb(0, 214, 132);
   width: 100%;
 }
+.records{
+  padding-bottom: -50px;
+}
 
 .plank{
   display: inline-block;
-  width: 33%;
-  margin-top: 0;
+  width: 25%;
 }
 .pull-ups{
   display: inline-block;
-  width: 33%;
+  width: 25%;
 }
 .squat{
   display: inline-block;
-  width: 33%;
+  width: 25%;
+}
+
+.about-image{
+  background-image: url(../images/trophy.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  min-height: 400px; 
+  width: 20%;
+  float: right;
+  opacity: 0.9;
 }
 
 /*-------------------------------------------Map*/

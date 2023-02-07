@@ -147,9 +147,11 @@ To fix this, I have set each record its own class and set its styling to an in-l
 ## Credits
 ### Content
 ### Media
-Hero Image used in the accounts page: [Account Image](https://www.pexels.com/photo/various-fitness-machines-in-modern-spacious-gym-7031706/)
+Hero Image used in the Accounts page: [Account Image](https://www.pexels.com/photo/various-fitness-machines-in-modern-spacious-gym-7031706/)
 
-Hero Image used in the cafe page: [Cafe Image](https://www.pexels.com/photo/black-and-white-ceramic-mug-1813466/)
+Hero Image used in the Cafe and Bar page: [Cafe Image](https://www.pexels.com/photo/black-and-white-ceramic-mug-1813466/)
+
+Hero Image used in the About page: [About Image](https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-gold-trophy-6250975/)
 
 ### Code
 Template code for the fixed navbar at the top of each homepage was provided by: [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/)
