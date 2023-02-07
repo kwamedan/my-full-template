@@ -11,7 +11,7 @@
 
 
 <body>
-    <header class="container-fluid fixed-top">
+    <header class="container-fluid">
         <div class="col-3 contact">
             <span><i class="fas fa-phone"></i>For support contact: 555 123 456 789</span>
         </div>         
@@ -39,47 +39,51 @@
     </header>
 
     <section class="main-account container-fluid">
-        <h2>
-            Want to become our Latest Member? Sign Up Here!
-        </h2>
-        
-        <fieldset class="signup">
-            <form method="POST" action="#">
-                <h3><strong><u>Create an Account</u></strong></h3>
-                <label for="fname">First Name: </label><br>
-                <input id="fname" type="text" required><br>
-                <label for="lname">Last Name: </label><br>
-                <input id="lname" type="text" required><br>
-                <label for="email">Email Address: </label><br>
-                <input id="email" type="email" required><br>
-                <label for="password">Password: </label><br>
-                <input id="password" type="password" required><br>
-                <label for="date">Date of Birth: </label><br>
-                <input id="date" type="date" required><br>
-                <button type="submit">Sign Up!</button>
-            </form>
-        </fieldset>
+        <div class="col-12">
+            <h2>
+                Want to become our Latest Member? Sign Up Here!
+            </h2>
 
-        <fieldset class="account-image"></fieldset>
+            <fieldset class="signup">
+                <form method="POST" action="#">
+                    <h3><strong><u>Create an Account</u></strong></h3>
+                    <label for="fname">First Name: </label><br>
+                    <input id="fname" type="text" required><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input id="lname" type="text" required><br>
+                    <label for="email">Email Address: </label><br>
+                    <input id="email" type="email" required><br>
+                    <label for="password">Password: </label><br>
+                    <input id="password" type="password" required><br>
+                    <label for="date">Date of Birth: </label><br>
+                    <input id="date" type="date" required><br>
+                </form>
+            </fieldset>
 
-        <fieldset class="reasons">
-            <form method="POST" action="#">
-                <h2><strong><u>Reasons for Joining?</u></strong></h2>
-                <label for="fit">Want to get fit: </label>
-                <input id="fit" type="radio" name="reason"><br>
-                <label for="health">Want to improve health: </label>
-                <input id="health" type="radio" name="reason"><br>
-                <label for="muscle">Want to gain muscle: </label>
-                <input id="muscle" type="radio" name="reason"><br>
-                <label for="mental">Want to improve mental health: </label>
-                <input id="mental" type="radio" name="reason"><br>
-                <label for="weight">Want to lose weight: </label>
-                <input id="weight" type="radio" name="reason"><br>
-            </form>
-        </fieldset>
+            <div id="account-image"></div>
+            
+            <fieldset class="reasons">
+                <form method="POST" action="#">
+                    <h2><strong><u>Reasons for Joining?</u></strong></h2>
+                    <label for="fit">Want to get fit: </label>
+                    <input id="fit" type="radio" name="reason" required><br>
+                    <label for="health">Want to improve health: </label>
+                    <input id="health" type="radio" name="reason"><br>
+                    <label for="muscle">Want to gain muscle: </label>
+                    <input id="muscle" type="radio" name="reason"><br>
+                    <label for="mental">Want to improve mental health: </label>
+                    <input id="mental" type="radio" name="reason"><br>
+                    <label for="weight">Want to lose weight: </label>
+                    <input id="weight" type="radio" name="reason"><br>
+                    <button type="submit">Sign Up!</button>
+                </form>
+            </fieldset>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4750611608897!2d-0.09098466945482049!3d51.50449991449594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876035a0a9271d3%3A0xbdf26ba73efb7b!2sThe%20Shard!5e0!3m2!1sen!2suk!4v1675767256786!5m2!1sen!2suk" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
 
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container-fluid">
         <div class="row">
             <div class="col-4">
                 <h2>Opening Times:<i class="fas fa-clock"></i></h2>
@@ -90,7 +94,6 @@
             <div class="col-4">
                 <h2>Location:<i class="fas fa-globe"></i></h2>
                 <span>The Gym Group, The Gym Street, GY 5MF</span>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4750611608897!2d-0.09098466945482049!3d51.50449991449594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876035a0a9271d3%3A0xbdf26ba73efb7b!2sThe%20Shard!5e0!3m2!1sen!2suk!4v1675767256786!5m2!1sen!2suk" width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="col-4">

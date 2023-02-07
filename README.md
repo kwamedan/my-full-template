@@ -105,22 +105,41 @@ To solve this, I have decided to use the class: 'container-fluid' from bootstrap
 
 I have included some CSS styling to solve this. First I created a class for the 'span' and within style.css I floated the content to the right and created the code for it before the 'h1' header so it appeared right at the top:
 
-* The reviews has been displayed below the main content and to the left of the page:
+* The reviews have been displayed below the main content and to the left of the page:
 
-Similar to the contact number, I have set the float to right and created a class for the review section to float all its content:
+I have decided to set the review section to the full width of the page so that it is easier to read and takes up the full page's content: 
 
 * The icons have been displayed too close to their parent text:
 
 I have since decided to add padding to the relevant side required of each icon to give it more breathing space:
 
 * When creating a fixed header, the content from below the header interferes with it:
-I have decided to create a grid
-To combat this, I have decided to add padding to each icon relative to its position and set the z-index of the header to a lower value than the content below it. I also received additional suppor to solve this from [Help](https://stackoverflow.com/questions/46555609/displaying-content-below-a-fixed-header):
+
+After reviewing the use of a fixed header (only needed for really long content within a webpage), I have decided to not include a fixed header as the user can easily navigate back to the top of the page:
 
 * When inputting the image for the account page, it was difficult to center it between both forms:
 
 To solve this, I decided to give the image its own ID as well as size and position:
 
+* After setting the header and its contents, there was a horizontal break between the h1 tag and the navbar:
+
+
+Using the Inspect tool, I discovered that there was a margin padding of 8px. To solve this, I removed the margin padding:
+
+
+* The map which I inserted into my footer was making the footer too large, I decided to place the map in the bottom of each page to size the footer to a more reasonable size but also give the user the satisfaction of still viewing the map:
+
+* The structure in my accounts page is really poor with the background image being hidden:
+
+* To deal with this, I have set padding to the respective numbers and given each from its own section:
+
+* The styling in my cafe and bar page was not formatted correctly as the image would be separate from the menu items.
+
+To combat this, I have decided to include the image within the divs of the menu and set its padding and size
+
+* Styling for the about page hasn't been formatted the way I want it to with each record being displayed side-by-side:
+
+To fix this, I have set each record its own class and set its styling to an in-line block taking up 33% of its width:
 
 
 ## Deployment
@@ -140,4 +159,5 @@ Code used to help g
 
 Google support to help insert the map into the footer of the page:
 [Google Help](https://support.google.com/maps/answer/144361?hl=en-GB&co=GENIE.Platform%3DDesktop#:~:text=Embed%20a%20map%20or%20directions&text=Click%20Share%20or%20embed%20map,Click%20Embed%20map.&text=Copy%20the%20text%20in%20the,of%20your%20website%20or%20blog.)
+
 ### Acknowledgements
