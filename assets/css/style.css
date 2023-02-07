@@ -140,14 +140,32 @@ section{
   padding-left: 25px;
 }
 
+.cafe-image{
+  position: relative;
+  background-image: url(../images/cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 600px;
+  height: 400px; 
+  width: 33%;
+  display: inline-block;
+  opacity: 0.9;
+}
 
+/*-------------------------------------------About*/
+
+.record{
+  width: 33%;
+  
+}
 /*-------------------------------------------Footer*/
 footer {
   background-color: rgb(15, 260, 200);
   position: bottom;
-  z-index: 10;
   bottom: 0;
   letter-spacing: 2px;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .social{

@@ -129,7 +129,15 @@ To solve this, I decided to give the image its own ID as well as size and positi
 ### Content
 ### Media
 Hero Image used in the accounts page: [Account Image](https://www.pexels.com/photo/various-fitness-machines-in-modern-spacious-gym-7031706/)
+
+Hero Image used in the cafe page: [Cafe Image](https://www.pexels.com/photo/black-and-white-ceramic-mug-1813466/)
+
 ### Code
 Template code for the fixed navbar at the top of each homepage was provided by: [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/)
 
+Code used to help g
+
+
+Google support to help insert the map into the footer of the page:
+[Google Help](https://support.google.com/maps/answer/144361?hl=en-GB&co=GENIE.Platform%3DDesktop#:~:text=Embed%20a%20map%20or%20directions&text=Click%20Share%20or%20embed%20map,Click%20Embed%20map.&text=Copy%20the%20text%20in%20the,of%20your%20website%20or%20blog.)
 ### Acknowledgements
