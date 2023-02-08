@@ -63,7 +63,7 @@ All icons displayed will be relatable to its section of text/image and easily re
 #### Colours
 The primary colours display throughout the website will be green and white as it presents an optimistic feel but green will also give users a sense of nature which will help them feel relaxed and place them in a peaceful mood. White also contrasts well with green but not too much that it gives a negative connotation. 
 
-* Any other colours used will be selected experimentally using 'rgba' to inclue opacity where needed
+* Any other colours used will be selected experimentally using 'rgb'/'rgba' to include opacity where needed.
 
 #### Backgrounds and Images
 I will display different backgrounds for each page, relating the page which the user is on.
@@ -95,6 +95,7 @@ Fontawesome icon used for placing icons into my website:
 [Fontawesome Icons](https://fontawesome.com/v5/search?o=r&m=free)
 
 ## Testing
+* For the homepage, the header overlaps with the main section, I have used a media query to make the header smaller so it can fit on the page and also increase padding size:
 ### Bugs
 
 * Content has been pushed to the left-side of the page so certain characters are missing on the page:
@@ -141,6 +142,19 @@ To combat this, I have decided to include the image within the divs of the menu 
 
 To fix this, I have set each record its own class and set its styling to an in-line block taking up 33% of its width:
 
+* For responsive design, the hero image in my cafe and bar page takes up too much space:
+
+I have decided to create a media query and set the image's size to a smaller size so it takes up less space and can accomodate the footer:
+
+* Also for responsive design for the hero image in my about page causes to much tightness within the page:
+
+I have decided to hide the image whilst the screen size is within this limit:
+
+* Within this same page, the text within the overview takes up too much space:
+
+To combat this, I have removed the final paragraph from the overview section: 
+
+* For my phone sized design, I have decided not to display the contact support information in the header:
 
 ## Deployment
 

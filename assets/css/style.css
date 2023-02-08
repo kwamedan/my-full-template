@@ -30,11 +30,12 @@ a {
   list-style-type: none;
   font-size: 25px;
   font-weight: 500;
+  padding-right: 200px;
 }
 
 .navbar{
   background-color: rgb(100, 249, 0);
-  padding-right: 50px;
+  padding-right: 5px;
   padding-left: 5px;
   width: 100%;
 }
@@ -182,12 +183,13 @@ a {
   width: 100%;
   margin: auto
 }
+
 /*-------------------------------------------Footer*/
 footer {
   background-color: rgb(15, 260, 200);
   letter-spacing: 4px;
   padding-top: 10px;
-  height: 120px;
+  height: 185px;
   padding-bottom: 10px;
 }
 
@@ -200,4 +202,46 @@ footer {
   list-style-type: none;
   text-decoration: none;
   display: inline;
+}
+
+/*-------------------------------------------Media Queries*/
+/*Tablet Size*/
+@media screen and (max-width: 825px){
+  .navbar li{
+    padding-right: 75px;
+    font-size: 20px;
+  }               
+  .contact{
+    font-size: 15px;
+  }
+  .welcome{
+    padding-top: 20px;
+  }
+  .map{
+    padding-top: 10px;
+  }
+  .cafe-image{
+    min-height: 350px; 
+  }
+  .about-image{
+    display: none;
+  }
+  .para-2{
+    display: none;
+  }
+}
+
+/*Mobile Phone Size*/
+@media screen and (max-width: 450px){
+  h1{
+    font-size: 30px;
+  }
+  .navbar li{
+    font-size: 10px;
+  }
+  .contact{
+    display: none;
+  }
+
+
 }
