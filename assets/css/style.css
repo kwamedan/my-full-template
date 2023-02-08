@@ -4,7 +4,6 @@
 
 header{
   text-transform: uppercase;
-  padding: -12px;
   height: 100px;
   font-weight: 700;
   width: 100%;
@@ -30,29 +29,22 @@ a {
   list-style-type: none;
   font-size: 25px;
   font-weight: 500;
-  padding-right: 200px;
+  padding-right: 40px;
 }
 
 .navbar{
   background-color: rgb(100, 249, 0);
-  padding-right: 5px;
-  padding-left: 5px;
   width: 100%;
 }
-
+.menu{
+  width: 100%;
+}
 .contact {
   float: right;
   padding-top: 10px;
 }
 
 /*---------------------------------------------------------Main*/
-/*.main-home{
-  background-image: url(../images/welcome1.jpg);
-  background-repeat: no-repeat;
-  background-position: fill;
-  padding-left: 10px;
-} */
-
 .main-home{
   background-color: rgb(0, 214, 132);
   width: 100%;
@@ -62,12 +54,14 @@ a {
 .welcome{
   height: 100px;
   padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 /*---------------------------------------------------------Why*/
 .why{
   padding-top: 30px;
 }
+
 /*---------------------------------------------------------Review*/
 
 /*-------------------------------------Icons*/
@@ -149,9 +143,6 @@ a {
   background-color: rgb(0, 214, 132);
   width: 100%;
 }
-.records{
-  padding-bottom: -50px;
-}
 
 .plank{
   display: inline-block;
@@ -189,7 +180,6 @@ footer {
   background-color: rgb(15, 260, 200);
   letter-spacing: 4px;
   padding-top: 10px;
-  height: 185px;
   padding-bottom: 10px;
 }
 
@@ -202,15 +192,28 @@ footer {
   list-style-type: none;
   text-decoration: none;
   display: inline;
+  font-size: 0px;
+}
+.social i{
+  font-size: 30px;
+}
+
+/*-------------------------------------------ThankYou*/
+.thank{
+  width: 75%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /*-------------------------------------------Media Queries*/
 /*Tablet Size*/
-@media screen and (max-width: 825px){
+@media screen and (max-width: 1100px){
   .navbar li{
-    padding-right: 75px;
-    font-size: 20px;
-  }               
+    font-size: 15px;
+  }
+  .navbar a{
+    font-size: 0px;
+  }
   .contact{
     font-size: 15px;
   }
@@ -229,10 +232,15 @@ footer {
   .para-2{
     display: none;
   }
+  .thank{
+    width: 75%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
-/*Mobile Phone Size*/
-@media screen and (max-width: 450px){
+/*-----------------------------------------Mobile Phone Size*/
+@media screen and (max-width: 1099px){
   h1{
     font-size: 33px;
   }
@@ -240,11 +248,11 @@ footer {
     font-size: 0px;
   }
   .navbar i{
-    font-size: 27px;
+    font-size: 20px;
     padding: 0px;
   }
   .navbar li{
-    padding-right: 50px;
+    padding-right: 25px;
   }
   .contact{
     display: none;
@@ -273,6 +281,28 @@ footer {
     font-size: 20px;
   }
   .main-account h2{
-
+    font-size: 20px;
   }
+  #account-image{
+    display: none;
+  }
+  .social {
+    text-align: left;
+    padding: 5px;
+  }
+  .cafe-image{
+    display: none;
+  }
+
+  .plank, .squat, .pull-ups{
+    width: 100%;
+    display: block;
+  }
+
+  .thank{
+    width: 75%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
 }

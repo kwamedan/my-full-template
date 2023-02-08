@@ -72,9 +72,6 @@ I will display different backgrounds for each page, relating the page which the 
 * The personal trainer page will have a 'personal trainer and client at the gym'
 * The application page will have a positive background of someone smiling so they can picture themselves with that same emotion once they sign up.
 
-#### Video file
-This file will show the user a preview of the gym and features to enjoy once a member. It will also be interactive and allow the user to pause/play the video.
-
 ### Wireframes
 
 After reviewing and completing the wireframes, it has given me a better understanding of how my website would appear and appeal to the user. For this reason, I've decided to change sections and parts of the layout within my webstie:
@@ -82,10 +79,9 @@ After reviewing and completing the wireframes, it has given me a better understa
 * I have also decided to not include the 'personal assistant' section as a separate page as there isn't enough detail or relevance of this to give it its own page
 * I have decided to not include a video clip or a 'refer a friend' section as it gives the user too much information to deal with and this can be included later on in another cycle once the user has signed up. 
 
-## Features
-* 
-* 
-* 
+![Home Page](C:\Users\44787\OneDrive\Pictures\Screenshots\Balsamiq - Homepage.png)
+
+
 
 ## Technologies Used
 Bootstrap CDN to format my website:
@@ -95,61 +91,51 @@ Fontawesome icon used for placing icons into my website:
 [Fontawesome Icons](https://fontawesome.com/v5/search?o=r&m=free)
 
 ## Testing
-* For the homepage, the header overlaps with the main section, I have used a media query to make the header smaller so it can fit on the page and also increase padding size:
 
+
+### Homepage
+I have tested whether 
 * Making a conscious decision, I realised the user wouldn't want to scroll so much whilst navigating the homepage so I have reduced the number of reviews the user can see
 
 ### Bugs
 
-* Content has been pushed to the left-side of the page so certain characters are missing on the page:
+* Content has been pushed to the left-side of the page so certain characters are missing on the page.
 
 To solve this, I have decided to use the class: 'container-fluid' from bootstrap to push all content into the main frame:
 
-* The contact number has been displayed below the navbar and to the left of the page:
+* The contact number has been displayed below the navbar and to the left of the page.
 
 I have included some CSS styling to solve this. First I created a class for the 'span' and within style.css I floated the content to the right and created the code for it before the 'h1' header so it appeared right at the top:
 
-* The reviews have been displayed below the main content and to the left of the page:
+* The reviews have been displayed below the main content and to the left of the page.
 
 I have decided to set the review section to the full width of the page so that it is easier to read and takes up the full page's content: 
 
-* The icons have been displayed too close to their parent text:
-
-I have since decided to add padding to the relevant side required of each icon to give it more breathing space:
-
-* When creating a fixed header, the content from below the header interferes with it:
+* When creating a fixed header, the content from below the header interferes with it.
 
 After reviewing the use of a fixed header (only needed for really long content within a webpage), I have decided to not include a fixed header as the user can easily navigate back to the top of the page:
 
-* When inputting the image for the account page, it was difficult to center it between both forms:
-
-To solve this, I decided to give the image its own ID as well as size and position:
-
 * After setting the header and its contents, there was a horizontal break between the h1 tag and the navbar:
-
 
 Using the Inspect tool, I discovered that there was a margin padding of 8px. To solve this, I removed the margin padding:
 
 
 * The map which I inserted into my footer was making the footer too large, I decided to place the map in the bottom of each page to size the footer to a more reasonable size but also give the user the satisfaction of still viewing the map:
 
-* The structure in my accounts page is really poor with the background image being hidden:
+* The structure in my accounts page is really poor with the background image being hidden.
 
-* To deal with this, I have set padding to the respective numbers and given each from its own section:
+To deal with this, I have set padding to the respective numbers and given each from its own section:
 
 * The styling in my cafe and bar page was not formatted correctly as the image would be separate from the menu items.
 
-To combat this, I have decided to include the image within the divs of the menu and set its padding and size
+To combat this, I have decided to include the image within the divs of the menu and set its padding and size:
 
-* Styling for the about page hasn't been formatted the way I want it to with each record being displayed side-by-side:
+* Styling for the about page hasn't been formatted the way I want it to with each record being displayed side-by-side.
 
 To fix this, I have set each record its own class and set its styling to an in-line block taking up 33% of its width:
 
-* For responsive design, the hero image in my cafe and bar page takes up too much space:
 
-I have decided to create a media query and set the image's size to a smaller size so it takes up less space and can accomodate the footer:
-
-* Also for responsive design for the hero image in my about page causes to much tightness within the page:
+* For responsive design for the hero image in my 'About' page causes to much tightness within the page:
 
 I have decided to hide the image whilst the screen size is within this limit:
 
@@ -165,12 +151,42 @@ I have decided to delete the text and keep the icons whilst reducing the padding
 
 * The text in the main section overlap with each other:
 
-For responsive design, I have set the sizes and paddings to make the homepage more structured and neat
+For responsive design, I have set the sizes and paddings to make the homepage more structured and :
+
+For mobile respinsive design, my structure and format is messy:
+
+I have decided to remove the hero image and adjust the font-sizes and padding of the relevant elements:
+
+* Within the footer, the text for social media icons is still being displayed:
+
+
+I have decided to set the font size of the list elements to 0 and set the font sizes of the i class elements to 30px so that its displayed:
+
+* I have decided to add a thank you page once the user has submitted the form in the accounts' page:
+
 
 
 ## Deployment
 
-## Credits
+This project was developed using GitPod, each element within this file was added, committed and then pushed to my github file using the git methods learnt earlier. 
+To deploy this page from its GitHub repositry, the following steps were taken:
+1. Log into GitHub
+2. From the list of repositries on the screen, select 'kwamedan/my-fulltemplate'
+3. From the menu section below the title 'kwamedan/my-fulltemplate', select settings
+4. From settings, scroll down to the section 'Pages'
+5. Underneath 'source', select 'deploy from branch'
+6. Underneath 'branch', select the drop-down menu and click 'main'
+7. The GitPod project is now deployed can be accessed as a main site
+
+### How to run this project locally
+
+To clone and access this project from GitHub:
+1. From the chrome browser, install the [GitPod Browser Extension](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki?hl=en-GB)
+2. Login to GitPod with your personal account
+3. Follow this link to the [GitHub repositry](https://github.com/kwamedan/my-full-template)
+4. In the far right of the header section, click on a blue link named 'GitPod'
+5. This will open in a separate page and launch the GitPod application where you can view and edit the code
+
 ### Content
 ### Media
 Hero Image used in the Accounts page: [Account Image](https://www.pexels.com/photo/various-fitness-machines-in-modern-spacious-gym-7031706/)
@@ -179,13 +195,10 @@ Hero Image used in the Cafe and Bar page: [Cafe Image](https://www.pexels.com/ph
 
 Hero Image used in the About page: [About Image](https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-gold-trophy-6250975/)
 
-### Code
-Template code for the fixed navbar at the top of each homepage was provided by: [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/)
-
-Code used to help g
-
-
 Google support to help insert the map into the footer of the page:
 [Google Help](https://support.google.com/maps/answer/144361?hl=en-GB&co=GENIE.Platform%3DDesktop#:~:text=Embed%20a%20map%20or%20directions&text=Click%20Share%20or%20embed%20map,Click%20Embed%20map.&text=Copy%20the%20text%20in%20the,of%20your%20website%20or%20blog.)
+
+### Code
+Template code for the fixed navbar at the top of each homepage was provided by: [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/)
 
 ### Acknowledgements
