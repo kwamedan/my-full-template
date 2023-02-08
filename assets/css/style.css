@@ -234,14 +234,45 @@ footer {
 /*Mobile Phone Size*/
 @media screen and (max-width: 450px){
   h1{
-    font-size: 30px;
+    font-size: 33px;
+  }
+  .navbar a{
+    font-size: 0px;
+  }
+  .navbar i{
+    font-size: 27px;
+    padding: 0px;
   }
   .navbar li{
-    font-size: 10px;
+    padding-right: 50px;
   }
   .contact{
     display: none;
   }
+  .welcome{
+    width: 75%;
+    padding-bottom: 210px;
+  }
+  .why{
+    width: 75%;
+    padding-bottom: 5px;
+  }
+  .review-1, .review-2{
+    width: 75%;
+  }
+  .review-3, .review-4{
+    display: none;
+  }
+  footer{
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: auto;
+  }
+  footer h2{
+    font-size: 20px;
+  }
+  .main-account h2{
 
-
+  }
 }

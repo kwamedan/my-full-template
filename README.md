@@ -96,6 +96,9 @@ Fontawesome icon used for placing icons into my website:
 
 ## Testing
 * For the homepage, the header overlaps with the main section, I have used a media query to make the header smaller so it can fit on the page and also increase padding size:
+
+* Making a conscious decision, I realised the user wouldn't want to scroll so much whilst navigating the homepage so I have reduced the number of reviews the user can see
+
 ### Bugs
 
 * Content has been pushed to the left-side of the page so certain characters are missing on the page:
@@ -155,6 +158,15 @@ I have decided to hide the image whilst the screen size is within this limit:
 To combat this, I have removed the final paragraph from the overview section: 
 
 * For my phone sized design, I have decided not to display the contact support information in the header:
+
+* Text in the navbar is too large to display all links in the menu:
+
+I have decided to delete the text and keep the icons whilst reducing the padding size:
+
+* The text in the main section overlap with each other:
+
+For responsive design, I have set the sizes and paddings to make the homepage more structured and neat
+
 
 ## Deployment
 
